@@ -1,0 +1,7 @@
+6/22/17
+
+layout, navigation, editor, editor-html, single-entry-html, Quest Log Table need copied over to master git from flash
+
+ALTER TABLE `quest_log` ADD `progression` TEXT AFTER `favorite` for database
+
+maybe update nav btns on portfolio too GET UPDATED PORTFOLIO ON HERE

@@ -1,0 +1,128 @@
+html {
+	height: 100%;
+	padding-right: 0;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#titlebar {
+	color: white;
+}
+
+#titlebar:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.navibar {
+	background: #000040;
+}
+
+.row {
+	margin: 0;
+}
+
+.nav {
+	height: 100%;
+	background: #000040;
+	color: white;
+	margin: 0;
+	border-radius: 0px;
+	border: none;
+}
+
+.nav:hover {
+	background: black;
+	color: white;
+	text-decoration: none;
+}
+
+h3, legend {
+	text-align: center;
+}
+
+div, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+td {
+	padding: .7em;
+}
+
+input, select {
+	height: 2em;
+}
+
+body {
+	background: #C0C0C0;
+	position: relative;
+	margin: 0px;
+	padding-bottom: 6rem;
+	min-height: 100%;
+}
+
+#toolbar {
+	width: 100%;
+	background: #000040;
+	position: relative;
+	padding: .7em;
+	overflow: hidden;
+}
+
+#logout {
+	position: absolute;
+	top: .7em;
+	right: .7em;
+}
+
+#logout-btn {
+	background: #000040;
+	border: none;
+	color: white;
+}
+
+#logout-btn:hover {
+	background: white;
+	color: black;
+}
+
+#navi-row {
+	width: 100%;
+	margin: 0;
+}
+
+#main {
+	background: #C0C0C0;
+	color: black;
+	padding: 1em;
+}
+
+.messages {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.log-list-entry {
+	text-decoration: none;
+	color: black;
+}
+
+#footer {
+	width: 100%;
+	height: 6rem;
+	background: #000040;
+	color: white;
+	padding: .7em;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+}
+
+#register-link {
+	color: black;
+}

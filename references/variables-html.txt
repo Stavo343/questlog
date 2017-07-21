@@ -1,0 +1,764 @@
+new variables: user_id, date, quest, deck_name, ringsdb, mode, player_count, result, score, round_count, ending_threat, comments, favorite, ptm, efdg, ffm, witw, fos, ii, tsf1, tsf2, eaad1, eaad2, aoo1, aoo2, tfoi1, tfoi2, tfoi3, tcao, ifn, tdt1, tdt2, ttt1, ttt2, ttt3, ttt4, ttt5, ttt6, ttt7, ttt8, ttt9, tit, nie, cs, tac, iic, efmg, ate1, ate2, vab1, vab2, fots1, fots2, fots3, ttitd1, ttitd2, asoch1, asoch2, asoch3, asoch4, coc1, coc2, efu, dc, tlaom1, tlaom2, tlaom3, tlaom4, tm1, tm2, rah1, rah2, otmmg, bofa1, bofa2, bofa3, fttf, trgs1, trgs2, jitd1, jitd2, jitd3, botf, tuh1, tuh2, tuh3, hd1, hd2, trti1, trti2, tpotm1, tpotm2, jttcr, tpotgc1, tpotgc2, tpotgc3, tsog, tbopf, tmao1, tmao2, tmao3, tmao4, tmao5, tmao6, tmao7, tmao8, tmao9, tbol, tof, matpp1, matpp2, matpp3
+
+$user_id, $date, $quest, $deck_name, $ringsdb, $mode, $player_count, $result, $score, $round_count, $ending_threat, $comments, $favorite, $ptm, $efdg, $ffm, $witw, $fos, $ii, $tsf1, $tsf2, $eaad1, $eaad2, $aoo1, $aoo2, $tfoi1, $tfoi2, $tfoi3, $tcao, $ifn, $tdt1, $tdt2, $ttt1, $ttt2, $ttt3, $ttt4, $ttt5, $ttt6, $ttt7, $ttt8, $ttt9, $tit, $nie, $cs, $tac, $iic, $efmg, $ate1, $ate2, $vab1, $vab2, $fots1, $fots2, $fots3, $ttitd1, $ttitd2, $asoch1, $asoch2, $asoch3, $asoch4, $coc1, $coc2, $efu, $dc, $tlaom1, $tlaom2, $tlaom3, $tlaom4, $tm1, $tm2, $rah1, $rah2, $otmmg, $bofa1, $bofa2, $bofa3, $fttf, $trgs1, $trgs2, $jitd1, $jitd2, $jitd3, $botf, $tuh1, $tuh2, $tuh3, $hd1, $hd2, $trti1, $trti2, $tpotm1, $tpotm2, $jttcr, $tpotgc1, $tpotgc2, $tpotgc3, $tsog, $tbopf, $tmao1, $tmao2, $tmao3, $tmao4, $tmao5, $tmao6, $tmao7, $tmao8, $tmao9, $tbol, $tof, $matpp1, $matpp2, $matpp3
+
+*********************************************************************
+<div id='ptm'><table>
+	<tr><td><label>Which Stage 3 did you reveal?</label></td>
+	<td><select name='ptm' value='$userEntry->ptm'>
+		<option value='Don't Leave the Path!'>Don't Leave the Path!</option>
+		<option value='Beorn's Path'>Beorn's Path</option>
+	</select></td></tr></table>
+</div>
+
+<div id='efdg'><table>
+	<tr><td><label>Who was the captured hero?</label></td>
+	<td><input type='text' name='efdg' value='$userEntry->efdg'/></td></tr></table>	
+</div>
+
+<div id='ffm'><table>
+	<tr><td><label>Which quest card did you win by?</label></td>
+	<td><select name='ffm' value='$userEntry->ffm'>
+		<option value='Blocked by Shadow'>Blocked by Shadow</option>
+		<option value='Escape from Darkness'>Escape from Darkness</option>
+	</select></td></tr></table>
+</div>
+
+<div id='witw'><table>
+	<tr><td><label>How did you win?</label></td>
+	<td><select name='witw' value='$userEntry->witw'>
+		<option value='Defeated the Watcher'>Defeated the Watcher</option>
+		<option value='Opened the Doors of Durin'>Opened the Doors of Durin</option>
+	</select></td></tr></table>
+</div>
+
+<div id='fos'><table>
+	<tr><td><label>Which Stage 4 did you get?</label></td>
+	<td><select name='fos' value='$userEntry->fos'>
+		<option value='Old One Lair'>Old One Lair</option>
+		<option value='The Shivering Bank'>The Shivering Bank</option>
+		<option value='The Endless Caves'>The Endless Caves</option>
+		<option value='Sheltered Rocks'>Sheltered Rocks</option>
+	</select></td></tr></table>
+</div>
+
+<div id='ii'><table>
+	<tr><td><label>Which was your second stage?</label></td>
+	<td><select name='ii' value='$userEntry->ii'>
+		<option value='Southron Counter-attack'>Southron Counter-attack</option>
+		<option value='The Hidden Way'>The Hidden Way</option>
+	</select></td></tr></table>
+</div>
+
+<div id='tsf'><table>
+	<tr><td><label>Plot</label></td>
+	<td><select name='tsf1' value='$userEntry->tsf1'>
+		<option value='Unholy Alliance'>Unholy Alliance</option>
+		<option value='Up in Flames'>Up in Flames</option>
+		<option value='Poisoned Counsels'>Poisoned Counsels</option>
+	</select></td></tr>
+	
+	<tr><td><label>Villain</label></td>
+	<td><select name='tsf2' value='$userEntry->tsf2'>
+		<option value='Daughter of Berúthiel'>Daughter of Berúthiel</option>
+		<option value='The Hand of Castamir'>The Hand of Castamir</option>
+		<option value='Telemnar's Bane'>Telemnar's Bane</option>
+	</select></td></tr></table>
+</div>
+
+<div id='eaad'><table>
+	<tr><td><label>Rescued Villagers</label></td>
+	<td><input type='text' name='eaad1' value='$userEntry->eaad1'/></td></tr>
+	
+	<tr><td><label>Dead Villagers</label></td>
+	<td><input type='text' name='eaad2' value='$userEntry->eaad2'/></td></tr></table>	
+</div>
+
+<div id='aoo'><table>
+	<tr><td><label>Chosen Enemy</label></td>
+	<td><select name='aoo1' value='$userEntry->aoo1'>
+		<option value='Haradrim Elite'>Haradrim Elite</option>
+		<option value='Lieutenant of Mordor'>Lieutenant of Mordor</option>
+		<option value='Mûmak'>Mûmak</option>
+		<option value='Orc Arbalesters'>Orc Arbalesters</option>
+		<option value='Orc Vanguard'>Orc Vanguard</option>
+		<option value='Southron Mercenaries'>Southron Mercenaries</option>
+		<option value='Uruk Lieutenant'>Uruk Lieutenant</option>
+		<option value='Uruk Soldier'>Uruk Soldier</option>
+		<option value='Southron Phalanx'>Southron Phalanx</option>
+		<option value='Southron Commander'>Southron Commander</option>
+		<option value='Invading Orc'>Invading Orc</option>
+	</select></td></tr>
+	
+	<tr><td><label>Chosen Location</label></td>
+	<td><select name='aoo2' value='$userEntry->aoo2'>
+		<option value='West Gate'>West Gate</option>
+		<option value='The King's Library'>The King's Library</option>
+		<option value='Ancient Harbor'>Ancient Harbor</option>
+		<option value='The Old Bridge'>The Old Bridge</option>
+	</select></td></tr></table>
+</div>
+
+<div id='tfoi'><table>
+	<tr><td><label>Chosen Dunland Enemy Stage 1</label></td>
+	<td><select name='tfoi1' value='$userEntry->tfoi1'>
+		<option value='Dunland Prowler'>Dunland Prowler</option>
+		<option value='Dunlending Bandit'>Dunlending Bandit</option>
+		<option value='Dunland Raider'>Dunland Raider</option>
+		<option value='Dunland Tribesman'>Dunland Tribesman</option>
+		<option value='Dunland Chieftain'>Dunland Chieftain</option>
+		<option value='Dunland Berserker'>Dunland Berserker</option>
+	</select></td></tr>
+	
+	<tr><td><label>Chosen Dunland Enemy Stage 2</label></td>
+	<td><select name='tfoi2' value='$userEntry->tfoi2'>
+		<option value='Dunland Prowler'>Dunland Prowler</option>
+		<option value='Dunlending Bandit'>Dunlending Bandit</option>
+		<option value='Dunland Raider'>Dunland Raider</option>
+		<option value='Dunland Tribesman'>Dunland Tribesman</option>
+		<option value='Dunland Chieftain'>Dunland Chieftain</option>
+		<option value='Dunland Berserker'>Dunland Berserker</option>
+	</select></td></tr>
+	
+	<tr><td><label>Chosen Dunland Enemy Stage 3</label></td>
+	<td><select name='tfoi3' value='$userEntry->tfoi3'>
+		<option value='Dunland Prowler'>Dunland Prowler</option>
+		<option value='Dunlending Bandit'>Dunlending Bandit</option>
+		<option value='Dunland Raider'>Dunland Raider</option>
+		<option value='Dunland Tribesman'>Dunland Tribesman</option>
+		<option value='Dunland Chieftain'>Dunland Chieftain</option>
+		<option value='Dunland Berserker'>Dunland Berserker</option>
+	</select></td></tr></table>
+</div>
+
+<div id='tcao'><table>
+	<tr><td><label>Chosen Mountain Location</label></td>
+	<td><select name='tcao' value='$userEntry->tcao'>
+		<option value='Methedras'>Methedras</option>
+		<option value='Orc Cave'>Orc Cave</option>
+		<option value='Mugash's Lair'>Mugash's Lair</option>
+	</select></td></tr></table>
+</div>
+
+<div id='ifn'><table>
+	<tr><td><label>Chosen Huorn Enemy Stage 2</label></td>
+	<td><select name='ifn' value='$userEntry->ifn'>
+		<option value='Dark-Hearted Huorn'>Dark-Hearted Huorn</option>
+		<option value='Angry Huorn'>Angry Huorn</option>
+		<option value='Deadly Huorn'>Deadly Huorn</option>
+	</select></td></tr></table>
+</div>
+
+<div id='tdt'><table>
+	<tr><td><label>Chosen Boar Clan Enemy Stage 1</label></td>
+	<td><select name='tdt1' value='$userEntry->tdt1'>
+		<option value='Boar Clan Stalker'>Boar Clan Stalker</option>
+		<option value='Boar Clan Warrior'>Boar Clan Warrior</option>
+	</select></td></tr>
+	
+	<tr><td><label>Chosen Boar Clan Enemy Stage 2</label></td>
+	<td><select name='tdt2' value='$userEntry->tdt2'>
+		<option value='Boar Clan Stalker'>Boar Clan Stalker</option>
+		<option value='Boar Clan Warrior'>Boar Clan Warrior</option>
+	</select></td></tr></table>
+</div>
+
+<div id='ttt'><table>
+	<tr><td><label>First Trial</label></td>
+	<td><select name='ttt1' value='$userEntry->ttt1'>
+		<option value='The Trial of Strength'>The Trial of Strength</option>
+		<option value='The Trial of Perseverance'>The Trial of Perseverance</option>
+		<option value='The Trial of Intuition'>The Trial of Intuition</option>
+	</select></td></tr>
+	
+	<tr><td><label>First Location</label></td>
+	<td><select name='ttt2' value='$userEntry->ttt2'>
+		<option value='Hill Barrow'>Hill Barrow</option>
+		<option value='Cave Barrow'>Cave Barrow</option>
+		<option value='Stone Barrow'>Stone Barrow</option>
+	</select></td></tr>
+	
+	<tr><td><label>First Guardian</label></td>
+	<td><select name='ttt3' value='$userEntry->ttt3'>
+		<option value='Boar's Guardian'>Boar's Guardian</option>
+		<option value='Wolf's Guardian'>Wolf's Guardian</option>
+		<option value='Raven's Guardian'>Raven's Guardian</option>
+	</select></td></tr>
+	
+	<tr><td><label>Second Trial</label></td>
+	<td><select name='ttt4' value='$userEntry->ttt4'>
+		<option value='The Trial of Strength'>The Trial of Strength</option>
+		<option value='The Trial of Perseverance'>The Trial of Perseverance</option>
+		<option value='The Trial of Intuition'>The Trial of Intuition</option>
+	</select></td></tr>
+	
+	<tr><td><label>Second Location</label></td>
+	<td><select name='ttt5' value='$userEntry->ttt5'>
+		<option value='Hill Barrow'>Hill Barrow</option>
+		<option value='Cave Barrow'>Cave Barrow</option>
+		<option value='Stone Barrow'>Stone Barrow</option>
+	</select></td></tr>
+	
+	<tr><td><label>Second Guardian</label></td>
+	<td><select name='ttt6' value='$userEntry->ttt6'>
+		<option value='Boar's Guardian'>Boar's Guardian</option>
+		<option value='Wolf's Guardian'>Wolf's Guardian</option>
+		<option value='Raven's Guardian'>Raven's Guardian</option>
+	</select></td></tr>
+	
+	<tr><td><label>Third Trial</label></td>
+	<td><select name='ttt7' value='$userEntry->ttt7'>
+		<option value='The Trial of Strength'>The Trial of Strength</option>
+		<option value='The Trial of Perseverance'>The Trial of Perseverance</option>
+		<option value='The Trial of Intuition'>The Trial of Intuition</option>
+	</select></td></tr>
+	
+	<tr><td><label>Third Location</label></td>
+	<td><select name='ttt8' value='$userEntry->ttt8'>
+		<option value='Hill Barrow'>Hill Barrow</option>
+		<option value='Cave Barrow'>Cave Barrow</option>
+		<option value='Stone Barrow'>Stone Barrow</option>
+	</select></td></tr>
+	
+	<tr><td><label>Third Guardian</label></td>
+	<td><select name='ttt9' value='$userEntry->ttt9'>
+		<option value='Boar's Guardian'>Boar's Guardian</option>
+		<option value='Wolf's Guardian'>Wolf's Guardian</option>
+		<option value='Raven's Guardian'>Raven's Guardian</option>
+	</select></td></tr></table>
+</div>
+
+<div id='tit'><table>
+	<tr><td><label>Ending Threat Elimination Level</label></td>
+	<td><input type='text' name='tit' value='$userEntry->tit'/></td></tr></table>	
+</div>
+
+<div id='nie'><table>
+	<tr><td><label>Chosen Location</label></td>
+	<td><select name='nie' value='$userEntry->nie'>
+		<option value='Fen of Reeds'>Fen of Reeds</option>
+		<option value='Finger of Glanduin'>Finger of Glanduin</option>
+		<option value='Hidden Eyot'>Hidden Eyot</option>
+		<option value='Sinking Bog'>Sinking Bog</option>
+	</select></td></tr></table>
+</div>
+
+<div id='cs'><table>
+	<tr><td><label>Chosen Ost-in-Edhil Location</label></td>
+	<td><select name='cs' value='$userEntry->cs'>
+		<option value='Ruined Plaza'>Ruined Plaza</option>
+		<option value='Collapsed Tower'>Collapsed Tower</option>
+		<option value='Ancient Foundation'>Ancient Foundation</option>
+		<option value='City Remains'>City Remains</option>
+	</select></td></tr></table>
+</div>
+
+<div id='tac'><table>
+	<tr><td><label>Chosen Raven Enemy</label></td>
+	<td><select name='tac' value='$userEntry->tac'>
+		<option value='Raven Warrior'>Raven Warrior</option>
+		<option value='Raven Skirmisher'>Raven Skirmisher</option>
+	</select></td></tr></table>
+</div>
+
+<div id='iic'><table>
+	<tr><td><label>Chosen Location</label></td>
+	<td><select name='iic' value='$userEntry->iic'>
+		<option value='Chetwood Forest'>Chetwood Forest</option>
+		<option value='Borders of Bree-Land'>Borders of Bree-Land</option>
+		<option value='Outlying Homestead'>Outlying Homestead</option>
+		<option value='Rugged Country'>Rugged Country</option>
+		<option value='Shrouded Hills'>Shrouded Hills</option>
+	</select></td></tr></table>
+</div>
+
+<div id='efmg'><table>
+	<tr><td><label>Starter Hero</label></td>
+	<td><input type='text' name='efmg' value='$userEntry->efmg'/></td></tr></table>
+</div>
+
+<div id='ate'><table>
+	<tr><td><label>Chosen Side-quest</label></td>
+	<td><select name='ate1' value='$userEntry->ate1'>
+		<option value='Lost in the Wilderness'>Lost in the Wilderness</option>
+		<option value='Make Camp'>Make Camp</option>
+		<option value='Lie Low'>Lie Low</option>
+		<option value='Forage for Food'>Forage for Food</option>
+		<option value='Scavenge for Supplies'>Scavenge for Supplies</option>
+	</select></td></tr>
+	
+	<tr><td><label>Chosen Location</label></td>
+	<td><select name='ate2' value='$userEntry->ate2'>
+		<option value='Secluded Cave'>Secluded Cave</option>
+		<option value='The Hoarwell'>The Hoarwell</option>
+		<option value='Abandoned Camp'>Abandoned Camp</option>
+		<option value='Patch of Woods'>Patch of Woods</option>
+	</select></td></tr></table>
+</div>
+
+<div id='vab'><table>
+	<tr><td><label>Chosen Ship</label></td>
+	<td><select name='vab1' value='$userEntry->vab1'>
+		<option value='Dream-chaser'>Dream-chaser</option>
+		<option value='Dawn Star'>Dawn Star</option>
+		<option value='Nárelenya'>Nárelenya</option>
+		<option value='Silver Wing'>Silver Wing</option>
+	</select></td></tr>
+	
+	<tr><td><label>Victory Condition</label></td>
+	<td><select name='vab2' value='$userEntry->vab2'>
+		<option value='No ship enemies in play'>No ship enemies in play</option>
+		<option value='Escape with progress'>Escape with progress</option>
+	</select></td></tr></table>
+</div>
+
+<div id='fots'><table>
+	<tr><td><label>Chosen Ship</label></td>
+	<td><select name='fots1' value='$userEntry->fots1'>
+		<option value='Dream-chaser'>Dream-chaser</option>
+		<option value='Dawn Star'>Dawn Star</option>
+		<option value='Nárelenya'>Nárelenya</option>
+		<option value='Silver Wing'>Silver Wing</option>
+	</select></td></tr>
+	
+	<tr><td><label>Winning Stage</label></td>
+	<td><select name='fots2' value='$userEntry->fots2'>
+		<option value='Full Sail Ahead!'>Full Sail Ahead!</option>
+		<option value='The Weather Turns Foul'>The Weather Turns Foul</option>
+		<option value='The Cape of Andrast'>The Cape of Andrast</option>
+	</select></td></tr>
+	
+	<tr><td><label>Win Condition</label></td>
+	<td><select name='fots3' value='$userEntry->fots3'>
+		<option value='Caught the Stormcaller'>Caught the Stormcaller</option>
+		<option value='Defeated the Stormcaller'>Defeated the Stormcaller</option>
+	</select></td></tr></table>
+</div>
+
+<div id='ttitd'><table>
+	<tr><td><label>Chosen Ship</label></td>
+	<td><select name='ttitd1' value='$userEntry->ttitd1'>
+		<option value='Dream-chaser'>Dream-chaser</option>
+		<option value='Dawn Star'>Dawn Star</option>
+		<option value='Nárelenya'>Nárelenya</option>
+		<option value='Silver Wing'>Silver Wing</option>
+	</select></td></tr>
+	
+	<tr><td><label>Loss by high ship location threat?</label></td>
+	<td><select name='ttitd2' value='$userEntry->ttitd2'>
+		<option value='Yes'>Yes</option>
+		<option value='No'>No</option>
+	</select></td></tr></table>
+</div>
+
+<div id='asoch'><table>
+	<tr><td><label>Chosen Ship</label></td>
+	<td><select name='asoch1' value='$userEntry->asoch1'>
+		<option value='Dream-chaser'>Dream-chaser</option>
+		<option value='Dawn Star'>Dawn Star</option>
+		<option value='Nárelenya'>Nárelenya</option>
+		<option value='Silver Wing'>Silver Wing</option>
+	</select></td></tr>
+	
+	<tr><td><label>Win Condition</label></td>
+	<td><select name='asoch2' value='$userEntry->asoch2'>
+		<option value='Break Through the Fleet!'>Break Through the Fleet!</option>
+		<option value='Raider Flagship Destroyed'>Raider Flagship Destroyed</option>
+	</select></td></tr>
+	
+	<tr><td><label>Chosen Ship Enemy</label></td>
+	<td><select name='asoch3' value='$userEntry->asoch3'>
+		<option value='Scouting Ship'>Scouting Ship</option>
+		<option value='Light Cruiser'>Light Cruiser</option>
+		<option value='Corsair Warship'>Corsair Warship</option>
+		<option value='Corsair Skirmisher'>Corsair Skirmisher</option>
+		<option value='Siege Ship'>Siege Ship</option>
+		<option value='Heavy Cruiser'>Heavy Cruiser</option>
+	</select></td></tr>
+	
+	<tr><td><label>Second Chosen Ship Enemy (3-4 players)</label></td>
+	<td><select name='asoch4' value='$userEntry->asoch4'>
+		<option value='Scouting Ship'>Scouting Ship</option>
+		<option value='Light Cruiser'>Light Cruiser</option>
+		<option value='Corsair Warship'>Corsair Warship</option>
+		<option value='Corsair Skirmisher'>Corsair Skirmisher</option>
+		<option value='Siege Ship'>Siege Ship</option>
+		<option value='Heavy Cruiser'>Heavy Cruiser</option>
+	</select></td></tr></table>
+</div>
+
+<div id='coc'><table>
+	<tr><td><label>Placeholder for now</label></td>
+	<td><input type='text' name='coc1' value='$userEntry->coc1'/></td></tr>
+	
+	<tr><td><label>Placeholder for now</label></td>
+	<td><input type='text' name='coc2' value='$userEntry->coc2'/></td></tr></table>
+</div>
+
+<div id='efu'><table>
+	<tr><td><label>Chosen Location</label></td>
+	<td><select name='efu' value='$userEntry->efu'>
+		<option value='Narrow Alleyway'>Narrow Alleyway</option>
+		<option value='Umbar Street'>Umbar Street</option>
+		<option value='Umbar Square'>Umbar Square</option>
+		<option value='Port of Harad'>Port of Harad</option>
+		<option value='Haradrim Estate'>Haradrim Estate</option>
+	</select></td></tr></table>
+</div>
+
+<div id='dc'><table>
+	<tr><td><label>Ending Temperature</label></td>
+	<td><input type='text' name='dc' value='$userEntry->dc'/></td></tr></table>	
+</div>
+
+<div id='tlaom'><table>
+	<tr><td><label>Chosen Objective Hero</label></td>
+	<td><select name='tlaom1' value='$userEntry->tlaom1'>
+		<option value='Kahliel'>Kahliel</option>
+		<option value='Firyal'>Firyal</option>
+		<option value='Yazan'>Yazan</option>
+		<option value='Jubayr'>Jubayr</option>
+	</select></td></tr>
+	
+	<tr><td><label></label>First Rescued Hero</td>
+	<td><input type='text' name='tlaom2' value='$userEntry->tlaom2'/></td></tr>
+
+	<tr><td><label></label>Second Rescued Hero</td>
+	<td><input type='text' name='tlaom3' value='$userEntry->tlaom3'/></td></tr>
+
+	<tr><td><label></label>Third Rescued Hero</td>
+	<td><input type='text' name='tlaom4' value='$userEntry->tlaom4'/></td></tr></table>	
+</div>
+
+<div id='tm'><table>
+	<tr><td><label>Chosen Location</label></td>
+	<td><select name='tm1' value='$userEntry->tm1'>
+		<option value='Jungle Trail'>Jungle Trail</option>
+		<option value='Forest Clearing'>Forest Clearing</option>
+		<option value='Dense Jungle'>Dense Jungle</option>
+		<option value='Mûmak Trail'>Mûmak Trail</option>
+	</select></td></tr>
+	
+	<tr><td><label>Drawn Trap</label></td>
+	<td><select name='tm2' value='$userEntry->tm2'>
+		<option value='Horse-hair Lasso'>Horse-hair Lasso</option>
+		<option value='Poisoned Spear'>Poisoned Spear</option>
+		<option value='Pit Trap'>Pit Trap</option>
+		<option value='Noose of Vines'>Noose of Vines</option>
+	</select></td></tr></table>
+</div>
+
+<div id='rah'><table>
+	<tr><td><label>Chosen Location</label></td>
+	<td><select name='rah1' value='$userEntry->rah1'>
+		<option value='Towering Dunes'>Towering Dunes</option>
+		<option value='Desert Oasis'>Desert Oasis</option>
+		<option value='Expanse of Harad'>Expanse of Harad</option>
+		<option value='Blistering Erg'>Blistering Erg</option>
+		<option value='Harad Road'>Harad Road</option>
+	</select></td></tr>
+	
+	<tr><td><label>Loss by orcs catching up?</label></td>
+	<td><select name='rah2' value='$userEntry->rah2'>
+		<option value='Yes'>Yes</option>
+		<option value='No'>No</option>
+	</select></td></tr></table>
+</div>
+
+<div id='otmmg'><table>
+	<tr><td><label>Selected Treasure</label></td>
+	<td><select name='otmmg' value='$userEntry->otmmg'>
+		<option value='Sting'>Sting</option>
+		<option value='Glamdring'>Glamdring</option>
+		<option value='Orcrist'>Orcrist</option>
+	</select></td></tr></table>
+</div>
+
+<div id='bofa'><table>
+	<tr><td><label>First Cleared Stage</label></td>
+	<td><select name='bofa1' value='$userEntry->bofa1'>
+		<option value='The Eastern Spur'>The Eastern Spur</option>
+		<option value='Battle in the Dale'>Battle in the Dale</option>
+		<option value='The Defense of Ravenhill'>The Defense of Ravenhill</option>
+	</select></td></tr>
+	
+	<tr><td><label>Second Cleared Stage</label></td>
+	<td><select name='bofa2' value='$userEntry->bofa2'>
+		<option value='The Eastern Spur'>The Eastern Spur</option>
+		<option value='Battle in the Dale'>Battle in the Dale</option>
+		<option value='The Defense of Ravenhill'>The Defense of Ravenhill</option>
+	</select></td></tr>
+	
+	<tr><td><label>Third Cleared Stage</label></td>
+	<td><select name='bofa3' value='$userEntry->bofa3'>
+		<option value='The Eastern Spur'>The Eastern Spur</option>
+		<option value='Battle in the Dale'>Battle in the Dale</option>
+		<option value='The Defense of Ravenhill'>The Defense of Ravenhill</option>
+	</select></td></tr></table>
+</div>
+
+<div id='fttf'><table>
+	<tr><td><label>Ending Ring-bearer Life</label></td>
+	<td><input type='text' name='fttf' value='$userEntry->fttf'/></td></tr></table>	
+</div>
+
+<div id='trgs'><table>
+	<tr><td><label>Elrond's Council Choice</label></td>
+	<td><select name='trgs1' value='$userEntry->trgs1'>
+		<option value='Played for 0 cost'>Played for 0 cost</option>
+		<option value='Added to hand'>Added to hand</option>
+		<option value='Discarded'>Discarded</option>
+		<option value='Shuffled into deck'>Shuffled into deck</option>
+	</select></td></tr>
+	
+	<tr><td><label>Beginning Choice</label></td>
+	<td><select name='trgs2' value='$userEntry->trgs2'>
+		<option value='Shuffle Lust for the Ring into the deck'>Shuffle Lust for the Ring into the deck</option>
+		<option value='Raise threat by 5'>Raise threat by 5</option>
+	</select></td></tr></table>
+</div>
+
+<div id='jitd'><table>
+	<tr><td><label>Chosen Location</label></td>
+	<td><select name='jitd1' value='$userEntry->jitd1'>
+		<option value='Mines of Moria'>Mines of Moria</option>
+		<option value='Many-pillared Hall'>Many-pillared Hall</option>
+		<option value='Darkened Stairway'>Darkened Stairway</option>
+		<option value='Ancient Guardroom'>Ancient Guardroom</option>
+	</select></td></tr>
+	
+	<tr><td><label>Damage Tokens left on Doom, Doom, Doom</label></td>
+	<td><input type='text' name='jitd2' value='$userEntry->jitd2'/></td></tr>
+	
+	<tr><td><label>Hero discarded to The Great Bridge</label></td>
+	<td><input type='text' name='jitd3' value='$userEntry->jitd3'/></td></tr></table>
+</div>
+
+<div id='botf'><table>
+	<tr><td><label>Chosen Stage 3</label></td>
+	<td><select name='botf' value='$userEntry->botf'>
+		<option value='Searching the Woods'>Searching the Woods</option>
+		<option value='Guard the Hobbits'>Guard the Hobbits</option>
+		<option value='The Seat of Amon Hen'>The Seat of Amon Hen</option>
+		<option value='Orc Hunting'>Orc Hunting</option>
+	</select></td></tr></table>
+</div>
+	
+<div id='tuh'><table>
+	<tr><td><label>Chosen Captive Hero</label></td>
+	<td><input type='text' name='tuh1' value='$userEntry->tuh1'/></td></tr>
+	
+	<tr><td><label>Ending Pursuit Value</label></td>
+	<td><input type='text' name='tuh2' value='$userEntry->tuh2'/></td></tr>
+	
+	<tr><td><label>Chosen Uruk-hai Enemy</label></td>
+	<td><select name='tuh3' value='$userEntry->tuh3'>
+		<option value='Uglúk'>Uglúk</option>
+		<option value='Grishnákh'>Grishnákh</option>
+		<option value='Uglúk's Uruk-hai'>Uglúk's Uruk-hai</option>
+		<option value='Isengard Uruk'>Isengard Uruk</option>
+		<option value='Uruk-hai Fighter'>Uruk-hai Fighter</option>
+		<option value='Snaga'>Snaga</option>
+	</select></td></tr></table>
+</div>
+
+<div id='hd'><table>
+	<tr><td><label>Stage 1 Choice</label></td>
+	<td><select name='hd1' value='$userEntry->hd1'>
+		<option value='Poisoned Counsels'>Poisoned Counsels</option>
+		<option value='Advance to stage 2A'>Advance to stage 2A</option>
+	</select></td></tr>
+	
+	<tr><td><label>Loss from The Wall is Breached! explored?</label></td>
+	<td><select name='hd2' value='$userEntry->hd2'>
+		<option value='Yes'>Yes</option>
+		<option value='No'>No</option>
+	</select></td></tr></table>
+</div>
+
+<div id='trti'><table>
+	<tr><td><label># of Objective Ents in play</label></td>
+	<td><input type='text' name='trti1' value='$userEntry->trti1'/></td></tr>
+	
+	<tr><td><label>Loss due to 0 cards in hand?</label></td>
+	<td><select name='trti2' value='$userEntry->trti2'>
+		<option value='Yes'>Yes</option>
+		<option value='No'>No</option>
+	</select></td></tr></table>
+</div>
+
+<div id='tpotm'><table>
+	<tr><td><label>Chosen Location</label></td>
+	<td><select name='tpotm1' value='$userEntry->tpotm1'>
+		<option value='Evil-smelling Fens'>Evil-smelling Fens</option>
+		<option value='Shifting Quagmire'>Shifting Quagmire</option>
+		<option value='Haunted Mere'>Haunted Mere</option>
+		<option value='Stagnant Pools'>Stagnant Pools</option>
+		<option value='Soft Mires'>Soft Mires</option>
+	</select></td></tr>
+	
+	<tr><td><label>Chosen Undead Enemy</label></td>
+	<td><select name='tpotm2' value='$userEntry->tpotm2'>
+		<option value='Groping Dead'>Groping Dead</option>
+		<option value='Dead Things'>Dead Things</option>
+		<option value='Candle-bearer'>Candle-bearer</option>
+	</select></td></tr></table>
+</div>
+
+<div id='jttcr'><table>
+	<tr><td><label>Chosen Location (2+ players)</label></td>
+	<td><select name='jttcr' value='$userEntry->jttcr'>
+		<option value='Southward Road'>Southward Road</option>
+		<option value='Foothills of Ephel Dúath'>Foothills of Ephel Dúath</option>
+		<option value='Ithilien Woods'>Ithilien Woods</option>
+		<option value='Hills of Ithilien'>Hills of Ithilien</option>
+	</select></td></tr></table>
+</div>
+
+<div id='tpotgc'><table>
+	<tr><td><label># of Extra Resources</label></td>
+	<td><input type='text' name='tpotgc1' value='$userEntry->tpotgc1'/></td></tr>
+	
+	<tr><td><label>Chosen Location</label></td>
+	<td><select name='tpotgc2' value='$userEntry->tpotgc2'>
+		<option value='Dark Door'>Dark Door</option>
+		<option value='Trysting Place'>Trysting Place</option>
+		<option value='Deadly Road'>Deadly Road</option>
+		<option value='Haunted Path'>Haunted Path</option>
+	</select></td></tr>
+	
+	<tr><td><label>Remove Overcome by Fear by raising threat?</label></td>
+	<td><select name='tpotgc3' value='$userEntry->tpotgc3'>
+		<option value='Yes'>Yes</option>
+		<option value='No'>No</option>
+	</select></td></tr></table>
+</div>
+
+<div id='tsog'><table>
+	<tr><td><label>Chosen Ship Location</label></td>
+	<td><select name='tsog' value='$userEntry->tsog'>
+		<option value='Great Corsair Ship'>Great Corsair Ship</option>
+		<option value='Umbar War Galley'>Umbar War Galley</option>
+		<option value='Corsair Dromon'>Corsair Dromon</option>
+	</select></td></tr></table>
+</div>
+
+<div id='tbopf'><table>
+	<tr><td><label></label></td>
+	<td><select name='tbopf' value='$userEntry->tbopf'>
+		<option value='The Black Serpent'>The Black Serpent</option>
+		<option value='War Mûmak'>War Mûmak</option>
+		<option value='Southron Champion'>Southron Champion</option>
+		<option value='Morgul Captain'>Morgul Captain</option>
+		<option value='Orc of the Eye'>Orc of the Eye</option>
+		<option value='Mordor Orc'>Mordor Orc</option>
+	</select></td></tr></table>
+</div>
+
+<div id='tmao'><table>
+	<tr><td><label>First Chosen Scout Enemy</label></td>
+	<td><select name='tmao1' value='$userEntry->tmao1'>
+		<option value='Snaga Scouts'>Snaga Scouts</option>
+		<option value='Wolves from Mordor'>Wolves from Mordor</option>
+		<option value='Wainriders'>Wainriders</option>
+	</select></td></tr>
+	
+	<tr><td><label>Second Chosen Scout Enemy</label></td>
+	<td><select name='tmao2' value='$userEntry->tmao2'>
+		<option value='Snaga Scouts'>Snaga Scouts</option>
+		<option value='Wolves from Mordor'>Wolves from Mordor</option>
+		<option value='Wainriders'>Wainriders</option>
+	</select></td></tr>
+	
+	<tr><td><label>Third Chosen Scout Enemy</label></td>
+	<td><select name='tmao3' value='$userEntry->tmao3'>
+		<option value='Snaga Scouts'>Snaga Scouts</option>
+		<option value='Wolves from Mordor'>Wolves from Mordor</option>
+		<option value='Wainriders'>Wainriders</option>
+	</select></td></tr>
+	
+	<tr><td><label>Fourth Chosen Scout Enemy</label></td>
+	<td><select name='tmao4' value='$userEntry->tmao4'>
+		<option value='Snaga Scouts'>Snaga Scouts</option>
+		<option value='Wolves from Mordor'>Wolves from Mordor</option>
+		<option value='Wainriders'>Wainriders</option>
+	</select></td></tr>
+	
+	<tr><td><label>Fifth Chosen Scout Enemy</label></td>
+	<td><select name='tmao5' value='$userEntry->tmao5'>
+		<option value='Snaga Scouts'>Snaga Scouts</option>
+		<option value='Wolves from Mordor'>Wolves from Mordor</option>
+		<option value='Wainriders'>Wainriders</option>
+	</select></td></tr>
+	
+	<tr><td><label>Sixth Chosen Scout Enemy</label></td>
+	<td><select name='tmao6' value='$userEntry->tmao6'>
+		<option value='Snaga Scouts'>Snaga Scouts</option>
+		<option value='Wolves from Mordor'>Wolves from Mordor</option>
+		<option value='Wainriders'>Wainriders</option>
+	</select></td></tr>
+	
+	<tr><td><label>Seventh Chosen Scout Enemy</label></td>
+	<td><select name='tmao7' value='$userEntry->tmao7'>
+		<option value='Snaga Scouts'>Snaga Scouts</option>
+		<option value='Wolves from Mordor'>Wolves from Mordor</option>
+		<option value='Wainriders'>Wainriders</option>
+	</select></td></tr>
+	
+	<tr><td><label>Eighth Chosen Scout Enemy</label></td>
+	<td><select name='tmao8' value='$userEntry->tmao8'>
+		<option value='Snaga Scouts'>Snaga Scouts</option>
+		<option value='Wolves from Mordor'>Wolves from Mordor</option>
+		<option value='Wainriders'>Wainriders</option>
+	</select></td></tr>
+	
+	<tr><td><label>Ninth Chosen Scout Enemy</label></td>
+	<td><select name='tmao9' value='$userEntry->tmao9'>
+		<option value='Snaga Scouts'>Snaga Scouts</option>
+		<option value='Wolves from Mordor'>Wolves from Mordor</option>
+		<option value='Wainriders'>Wainriders</option>
+	</select></td></tr></table>
+</div>
+
+<div id='tbol'><table>
+	<tr><td><label>Ending Damage on Lake-town</label></td>
+	<td><input type='text' name='tbol' value='$userEntry->tbol'/></td></tr></table>
+</div>
+
+<div id='tof'><table>
+	<tr><td><label>Starting Location</label></td>
+	<td><select name='tof' value='$userEntry->tof'>
+		<option value='Misleading Path'>Misleading Path</option>
+		<option value='Deep Gulley'>Deep Gulley</option>
+		<option value='Strange Woods'>Strange Woods</option>
+		<option value='Wall of Trees'>Wall of Trees</option>
+		<option value='Oppressive Forest'>Oppressive Forest</option>
+	</select></td></tr></table>
+</div>
+
+<div id='matpp'><table>
+	<tr><td><label>Chosen Brigand Enemy (2+ players)</label></td>
+	<td><select name='matpp1' value='$userEntry->matpp1'>
+		<option value='Lawless Ruffian'>Lawless Ruffian</option>
+		<option value='Greenway Footpad'>Greenway Footpad</option>
+		<option value='Chetwood Outlaw'>Chetwood Outlaw</option>
+	</select></td></tr>
+	
+	<tr><td><label>Suspect</label></td>
+	<td><select name='matpp2' value='$userEntry->matpp2'>
+		<option value='Todd the Troll'>Todd the Troll</option>
+		<option value='Susie the Spider'>Susie the Spider</option>
+		<option value='Wolf-pelt Jake'>Wolf-pelt Jake</option>
+		<option value='Johnny Goblin-fingers'>Johnny Goblin-fingers</option>
+		<option value='Old Orc-eyes'>Old Orc-eyes</option>
+	</select></td></tr>
+	
+	<tr><td><label>Hideout</label></td>
+	<td><select name='matpp3' value='$userEntry->matpp3'>
+		<option value='Bill Ferny's House'>Bill Ferny's House</option>
+		<option value='Staddle Hiding Hole'>Staddle Hiding Hole</option>
+		<option value='Combe Storehouse'>Combe Storehouse</option>
+		<option value='Archet Trading Post'>Archet Trading Post</option>
+		<option value='Chetwood Campsite'>Chetwood Campsite</option>
+	</select></td></tr></table>
+</div>

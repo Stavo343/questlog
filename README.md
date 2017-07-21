@@ -1,0 +1,3 @@
+This is a quest log for The Lord of the Rings: The Card Game by Fantasy Flight Games!
+Many, many thanks to Jason Lengstorf and his PHP for Absolute Beginners 2nd Edition book which is an EXCELLENT source for anyone looking to learn PHP and some SQL.
+Thanks especially to SQL wizard, zacarius89, for his help in SQL advice for this project (some of which I have yet to implement, so don't view this project as a reflection of his mad skills). 

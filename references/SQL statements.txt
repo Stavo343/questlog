@@ -1,0 +1,6 @@
+INSERT INTO questions (quest_id, question, question_type, logs_column) VALUES (4, "", "", "plus");
+
+INSERT INTO options (question_id, option_text) VALUES (0, "");
+
+INSERT INTO victory_options (quest_id, victory_option_text) VALUES (0, "");
+

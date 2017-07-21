@@ -1,0 +1,74 @@
+Passage Through Mirkwood - random Stage 3? "Don't Leave the Path!" or Beorn's Path
+Escape from Dol Guldur - captured hero
+Flight from Moria - victory by Blocked by Shadow or Escape from Darkness
+The Watcher in the Water - victory condition
+Foundations of Stone - which Stage 4 did you get? Old One Lair, The Shivering Bank, The Endless Caves, Sheltered Rocks
+Into Ithilien - which was your second stage? Southron Counter-attack or The Hidden Way
+The Steward's Fear - which plot? Unholy Alliance, Up in Flames, or Poisoned Counsels
+	which villain? Daughter of Berúthiel, The Hand of Castamir, or Telemnar's Bane
+Encounter at Amon Dîn - how many rescued/killed?
+Assault on Osgiliath - chosen enemy? Haradrim Elite, Lieutenant of Mordor, Mûmak, Orc Arbalesters, Orc Vanguard, Southron Mercenaries, Uruk Lieutenant, Uruk Soldier, Southron Phalanx, Southron Commander, Invading Orc
+	chosen unique location? West Gate, The King's Library, Ancient Harbor, The Old Bridge
+The Fords of Isen - chosen Dunland enemy? (stages 1, 2, and 3) Dunland Prowler, Dunlending Bandit, Dunland Raider, Dunland Tribesman, Dunland Chieftain, Dunland Berserker
+To Catch an Orc - which mountain location? Methedras, Orc Cave, Mugash's Lair
+Into Fangorn - which Huorn enemy? Dark-Hearted Huorn, Angry Huorn, or Deadly Huorn
+The Dunland Trap - which Boar Clan enemy? (stages 1 and 2) Boar Clan Stalker, Boar Clan Warrior
+The Three Trials - 3 choices: The Trial of Strength, The Trial of Perseverance, or The Trial of Intuition
+	corresponding Guardians and locations for each: Hill Barrow, Cave Barrow, or Stone Barrow --- and Boar's Guardian, Wolf's Guardian, or Raven's Guardian
+Trouble in Tharbad - ending threat elimination level
+Nin-in-Eilph - which location? Fen of Reeds, Finger of Glanduin, Hidden Eyot, or Sinking Bog
+Celebrimbor's Secret - which Ost-in-Edhil location? Ruined Plaza, Collapsed Tower, Ancient Foundation, or City Remains 
+The Antlered Crown - which Raven enemy? Raven Warrior or Raven Skirmisher
+Intruders in Chetwood - which location? Chetwood Forest, Borders of Bree-Land, Outlying Homestead, Rugged Country, or Shrouded Hills
+Escape from Mount Gram - starter hero, drawn hero, captured hero(?)
+Across the Ettenmoors - which side quest? Lost in the Wilderness, Make Camp, Lie Low, Forage for Food, or Scavenge for Supplies
+	which safe location? Secluded Cave, The Hoarwell, Abandoned Camp, or Patch of Woods
+Ship Objectives (changed for solo) Dream-chaser, Dawn Star, Nárelenya, or Silver Wing
+Voyage Across Belegaer - which ship? 
+	victory condition? no ship enemies in play or escape with progress
+Flight of the Stormcaller - which ship? winning stage? Full Sail Ahead!, The Weather Turns Foul, or The Cape of Andrast
+	win by? catching up or defeating Stormcaller
+The Thing in the Depths - which ship? additional loss condition: too high ship location threat
+A Storm on Cobas Haven - which ship? win condition? Break Through the Fleet! or Raider Flagship destroyed
+	which ship enemy (2 if 3-4 players)? Scouting Ship, Light Cruiser, Corsair Warship, Corsair Skirmisher, Siege Ship, or Heavy Cruiser
+City of Corsairs - which enemy and which ship? NEED TO CHECK THE CARDS/MANUAL
+Escape from Umbar - which location? Narrow Alleyway, Umbar Street, Umbar Square, Port of Harad, or Haradrim Estate
+Desert Crossing - ending Temperature
+The Long Arm of Mordor - which objective Hero? Kahliel, Firyal, Yazan, or Jubayr
+	order of Heroes rescued
+The Mûmakil - which location? Jungle Trail, Forest Clearing, Dense Jungle, or Mûmak Trail
+	which trap? Horse-hair Lasso, Poisoned Spear, Pit Trap, or Noose of Vines
+Race Across Harad - which location? Towering Dunes, Desert Oasis, Expanse of Harad, Blistering Erg, or Harad Road
+	loss condition: orcs caught up 
+Over the Misty Mountains Grim - which treasure selected? Sting, Glamdring, Orcrist
+***The Lonely Mountain - which treasures? Mithril Shirt, The Arkenstone, Thrór's Battle Axe, Thrór's Golden Cup, or Thrór's Hunting Bow
+Battle of Five Armies - order of stages cleared? The Eastern Spur, Battle in the Dale, or The Defense of Ravenhill
+Flight to the Ford - how much life left on the Ring-bearer?
+The Ring Goes South - Elrond's Council choice? Played for 0 cost, Added to hand, discarded, or shuffled into deck
+	beginning choice? Shuffle Lust for the Ring into the deck or raise threat by 5
+Journey in the Dark - which location? Mines of Moria, Many-pillared Hall, Darkened Stairway, or Ancient Guardroom
+	damage tokens left on Doom, Doom, Doom?
+	hero discarded to The Great Bridge?
+Breaking of the Fellowship - which stage 3 chosen? Searching the Woods, Guard the Hobbits, The Seat of Amon Hen, or Orc Hunting
+The Uruk-hai - chosen captive hero?
+	ending pursuit value?
+	chosen Uruk-hai enemy? Uglúk, Grishnákh, Uglúk's Uruk-hai, Isengard Uruk, Uruk-hai Fighter, or Snaga
+Helm's Deep - choice? Poisoned Counsels or advance to stage 2A
+	loss condition: The Wall is Breached! explored
+The Road to Isengard - how many Objective Ents in play?
+	loss condition: 0 cards in hand
+The Passage of the Marshes - which location? Evil-smelling fens, Shifting Quagmire, Haunted Mere, Stagnant Pools, or Soft Mires
+	which undead enemy? Groping Dead, Dead Things, or Candle-bearer
+Journey to the Cross-roads - which location? (only for 2+) Southward Road, Foothills of Ephel Dúath, Ithilien Woods, or Hills of Ithilien
+The Passing of the Grey Company - how many extra resources? 
+	which location? Dark Door, Trysting Place, Deadly Road, or Haunted Path
+	did you remove Overcome by Fear by threat raising?
+The Siege of Gondor - which Ship Location? Great Corsair Ship, Umbar War Galley, or Corsair Dromon
+The Battle of Pelennor Fields - which enemy? The Black Serpent, War Mûmak, Southron Champion, Morgul Captain, Orc of the Eye, or Mordor Orc
+The Massing at Osgiliath - Snaga Scouts, Wolves from Mordor, or Wainriders
+The Battle of Lake-town - ending damage on Lake-town
+The Old Forest - starting location choice? Misleading Path, Deep Gulley, Strange Woods, Wall of Trees, or Oppressive Forest
+Murder at the Prancing Pony - which Brigand enemy (2+ only)? Lawless Ruffian, Greenway Footpad, or Chetwood Outlaw
+	which Suspect? Todd the Troll, Susie the Spider, Wolf-pelt Jake, Johnny Goblin-fingers, or Old Orc-eyes
+	which Hideout? Bill Ferny's House, Staddle Hiding Hole, Combe Storehouse, Archet Trading Post, or Chetwood Campsite
+ALL Siege of Annuminas stuff
