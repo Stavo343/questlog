@@ -76,7 +76,7 @@ if (isset($_POST['edit'])) {
 		foreach($_POST as $field => $value) {
 			if ($field !== "edit" && $field !== "log_id" && $field !== "plus" && $field !== "victory") {
 				$logFields[] = $field;
-				$logValues[] = $value;
+				$logValues[] = htmlspecialchars($value, ENT_QUOTES);
 			}
 		}
 		//save a new log
@@ -84,14 +84,14 @@ if (isset($_POST['edit'])) {
 			$log_id = $logsTable->saveLog($logFields, $logValues);
 			if (isset($_POST['plus'])) {
 				for ($i = 0; $i < count($_POST['plus']); $i++) {
-					$logs_plusTable->saveLogPlus($log_id, $_POST['plus'][$i][0], $_POST['plus'][$i][1]);
+					$logs_plusTable->saveLogPlus($log_id, $_POST['plus'][$i][0], htmlspecialchars($_POST['plus'][$i][1]), ENT_QUOTES);
 				}
 				$userLogPlus = $logs_plusTable->getUserLogPlus($log_id);
 				$logPlus = $userLogPlus->fetchAll(PDO::FETCH_OBJ);
 			}
 			if (isset($_POST['victory'])) {
 				for ($i = 0; $i < count($_POST['victory']); $i++) {
-					$victory_logsTable->saveVictoryLog($log_id, $_POST['victory'][$i][0], $_POST['victory'][$i][1]);
+					$victory_logsTable->saveVictoryLog($log_id, $_POST['victory'][$i][0], htmlspecialchars($_POST['victory'][$i][1], ENT_QUOTES));
 				}
 				$userVictoryLog = $victory_logsTable->getVictoryLogs($log_id);
 				$victoryLog = $userVictoryLog->fetchAll(PDO::FETCH_OBJ);
@@ -145,7 +145,7 @@ if (isset($_POST['edit'])) {
 	$questions = $allQuestions->fetchAll(PDO::FETCH_OBJ);
 	$allVictoryOptions = $victory_optionsTable->getVictoryOptions($quest_id);
 	$victoryOptions = $allVictoryOptions->fetchAll(PDO::FETCH_OBJ);
-	//security feature
+	//prohibit cross-user manip
 	if ($_SESSION['user_id'] === $userLog->user_id) {
 		$output = include_once "views/single-log-html.php";
 	} else {

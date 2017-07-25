@@ -37,13 +37,13 @@ for ($i = 0; $i < count($questions); $i++) {
 	}
 	
 	if (isset($userLog) && $name !== "plus[$plusCounter][1]") {
-		$value = $userLog->$name;
+		$value = htmlspecialchars_decode($userLog->$name);
 	} else {
 		$value = "";
 	}
 	if ($name === "plus[$plusCounter][1]") {
 		if (isset($logPlus)) {
-			$value = $logPlus[$plusCounter]->answer;
+			$value = htmlspecialchars_decode($logPlus[$plusCounter]->answer);
 		} else {
 			$value = "";
 		}
