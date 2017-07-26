@@ -52,6 +52,7 @@ for ($i = 0; $i < count($questions); $i++) {
 	switch ($question_type) {
 		case "quest":
 			$editorHTML .= "<tr><td><label>Quest:</label></td>
+			<input type='hidden' name='quest_group' value='$quest_group'/>
 			<input type='hidden' name='$name' value='$quest_id'/>
 			<td>$quest</td></tr>
 			";
@@ -77,7 +78,7 @@ for ($i = 0; $i < count($questions); $i++) {
 				$checked = "";
 			}
 			$editorHTML .= "<tr><td><label>$question:</label></td>
-			<input type='hidden' name='$name' value='No'/>
+			<input type='hidden' name='$name' value=''/>
 			<td><input type='checkbox' name='$name' value='Yes' $checked /></td></tr>
 			";
 			break;

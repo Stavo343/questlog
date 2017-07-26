@@ -18,17 +18,22 @@ $selectQuestHTML .= "<form method='post' action='index.php?page=editor'>
 ";
 
 $quest_set = "Core Set";
-for ($i = 1; $i < count($quests); $i++) {
-	if ($quests[$i]->quest_set !== $quest_set) {
-		$quest_set = $quests[$i]->quest_set;
-		$selectQuestHTML .= "</optgroup>
-		<optgroup label='$quest_set'>
-		";
+for ($j = 1; $j < 4; $j++) {
+	for ($i = 0; $i < count($quests); $i++) {
+		$quest_group = $quests[$i]->quest_group;
+		if ($quest_group == $j) {
+			if ($quests[$i]->quest_set !== $quest_set) {
+				$quest_set = $quests[$i]->quest_set;
+				$selectQuestHTML .= "</optgroup>
+				<optgroup label='$quest_set'>
+				";
+			}
+			$quest_id = $quests[$i]->id;
+			$quest_name = $quests[$i]->name;
+			$selectQuestHTML .= "<option value='$quest_id'>$quest_name</option>
+			";
+		}
 	}
-	$quest_id = $quests[$i]->id;
-	$quest_name = $quests[$i]->name;
-	$selectQuestHTML .= "<option value='$quest_id'>$quest_name</option>
-	";
 }
 
 $selectQuestHTML .= "</optgroup>

@@ -26,6 +26,7 @@ if (isset($log_id) && $log_id !== 0) {
 	for ($i = 0; $i < count($quests); $i++) {
 		if ($quests[$i]->id === $userLog->quest_id) {
 			$quest = $quests[$i]->name;
+			$quest_group = $quests[$i]->quest_group;
 		}
 	}
 }
@@ -45,6 +46,7 @@ if (isset($quest_id)) {
 		for ($i = 0; $i < count($quests); $i++) {
 			if ($quests[$i]->id === $quest_id) {
 				$quest = $quests[$i]->name;
+				$quest_group = $quests[$i]->quest_group;
 			}
 		}
 	}
@@ -139,6 +141,7 @@ if (isset($_POST['edit'])) {
 	for ($i = 0; $i < count($quests); $i++) {
 		if ($quests[$i]->id === $quest_id) {
 			$quest = $quests[$i]->name;
+			$quest_group = $quests[$i]->quest_group;
 		}
 	}
 	$allQuestions = $questionsTable->getQuestions($quest_id);
