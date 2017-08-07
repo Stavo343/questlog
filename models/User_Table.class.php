@@ -106,13 +106,13 @@ class User_Table extends Table {
 	}
 	
 	public function verifyKey($key) {
-		$sql = "SELECT user_id, verify from users WHERE verify = ?";
+		$sql = "SELECT id, verify from users WHERE verify = ?";
 		$data = array($key);
 		$statement = $this->makeStatement($sql, $data);
 		if ($statement->rowCount() === 1) {
 			$row = $statement->fetchObject();
 			if ($row->verify === $key) {
-				$key = array($row->user_id, true);
+				$key = array($row->id, true);
 			} else {
 				$key = array(0, false);
 			}
@@ -123,7 +123,7 @@ class User_Table extends Table {
 	}
 	
 	public function changePassword($user_id, $newPassword) {
-		$sql = "UPDATE users SET password = MD5(?), verify = ? WHERE user_id = ?";
+		$sql = "UPDATE users SET password = MD5(?), verify = ? WHERE id = ?";
 		$data = array($newPassword, 0, $user_id);
 		$statement = $this->makeStatement($sql, $data);
 	}
